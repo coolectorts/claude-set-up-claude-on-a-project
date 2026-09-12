@@ -1,7 +1,4 @@
 # CLAUDE.md
-
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
-
 Starter Express API for the Claude Code course: an in-memory `users` resource plus a `/health` check, used as a real codebase to practice setting up `CLAUDE.md` and permission rules on.
 
 ## Commands
