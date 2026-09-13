@@ -1,5 +1,5 @@
 # CLAUDE.md
-Starter Express API for the Claude Code course: an in-memory `users` resource plus a `/health` check, used as a real codebase to practice setting up `CLAUDE.md` and permission rules on.
+Starter Express API for the Claude Code course with an in-memory users resource and /health endpoint.
 
 ## Commands
 
@@ -9,7 +9,6 @@ Starter Express API for the Claude Code course: an in-memory `users` resource pl
 - `npm test` — run all tests (Node's built-in `node --test` runner + `supertest`)
 - `node --test tests/users.test.js` — run a single test file
 - `npm run lint` — run ESLint (`eslint:recommended`)
-- CI (`.github/workflows/ci.yml`) runs `npm install`, `npm run lint`, then `npm test` on Node 22 for every push and PR — match that locally before pushing.
 
 ## Conventions
 
